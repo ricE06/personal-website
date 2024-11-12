@@ -34,7 +34,7 @@ export default function Layout({ children, }) {
 				  </Link>
 			  </div>
 			  <div className = {styles.rightheader}>
-				  <Link href="/">
+				  <Link href="/resume.pdf">
 					  {"Resume"}
 				  </Link>
 			  </div>

@@ -105,7 +105,8 @@ export default function Home() {
 			this website, which displays text... woah.
 			</p>
 			<p>
-			I built it with the Next.js framework. You can find the source code here.
+			I built it with the Next.js framework and CSS modules. You can find the source code 
+	  <Link href="https://github.com/ricE06/personal-website"><ba> here</ba></Link>.
 			</p>
       </section>
 	  </div>
