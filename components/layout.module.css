@@ -1,0 +1,53 @@
+.container {
+  max-width: 54rem;
+  padding: 0 1rem;
+  margin: 1.5rem auto 1rem;
+  background-color: var(--light-color);
+  padding: 2rem;
+  box-shadow: 5px 5px 2px lightblue;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.headerbar {
+	position: sticky;
+	width: 100%;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	padding: 0.8rem 0;
+	margin: auto;
+	background-color: var(--main-color);
+	font-weight: var(--header-weight);
+	font-size: 1.2rem;
+	box-shadow: 0px 2px lightblue;
+}
+
+.push {
+	margin-left: auto;
+	padding: 0 var(--header-sep);
+}
+
+.headerentry {
+	padding: 0 var(--header-sep);
+}
+
+.rightheader {
+	float: right;
+	padding: 0 var(--header-sep);
+	margin-right: 3rem;
+}
+
+.leftheader {
+	font-weight: 600;
+	float: left;
+	padding: 0 4rem;
+}
