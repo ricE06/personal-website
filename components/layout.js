@@ -18,26 +18,28 @@ export default function Layout({ children, }) {
 					  {"Homepage"}
 				  </Link>
 			  </div>
-			  <div className = {styles.push}>
+    <div className = {styles.rightheader}>
+			  <span className = {styles.headerentry}>
 				  <Link href="/mit">
 					  {"MIT"}
 				  </Link>
-			  </div>
-			  <div className = {styles.headerentry}>
+			  </span>
+			  <span className = {styles.headerentry}>
 				  <Link href="/research">
 					  {"Research"}
 				  </Link>
-			  </div>
-			  <div className = {styles.headerentry}>
+			  </span>
+			  <span className = {styles.headerentry}>
 				  <Link href="/projects">
 					  {"Projects"}
 				  </Link>
-			  </div>
-			  <div className = {styles.rightheader}>
+			  </span>
+			  <span className = {styles.headerentry}>
 				  <Link href="/resume.pdf">
 					  {"Resume"}
 				  </Link>
-			  </div>
+			  </span>
+    </div>
 	  </div>
       <main>{children}</main>
 	  </div>

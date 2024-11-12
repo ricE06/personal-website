@@ -4,7 +4,8 @@
 	--back-color: #f2fafc;
 	--link-color: #197bd1;
 	--header-weight: 600;
-	--header-sep: 1.5rem;
+	--header-sep: 1rem;
+  --header-size: 1.2rem;
 }
 
 html,
@@ -48,4 +49,10 @@ img {
 
 p {
 	text-indent: 0rem;
+}
+
+@media (max-width: 600px) {
+  :root {
+    --header-size: 16px;
+  }
 }
