@@ -1,9 +1,17 @@
+:root {
+	--main-color: #4998de;
+	--light-color: #dcecfa;
+	--back-color: #f2fafc;
+	--link-color: #197bd1;
+	--header-weight: 600;
+	--header-sep: 1.5rem;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family:
-    Inter,
     -apple-system,
     BlinkMacSystemFont,
     Segoe UI,
@@ -15,10 +23,17 @@ body {
     Droid Sans,
     Helvetica Neue,
     sans-serif;
+	background-color: var(--back-color);
+	letter-spacing: .01rem;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
+}
+
+ba {
+  color: var(--link-color);
   text-decoration: none;
 }
 
@@ -29,4 +44,8 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+p {
+	text-indent: 0rem;
 }

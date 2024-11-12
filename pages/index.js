@@ -1,131 +1,63 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import Layout, { siteTitle } from '../components/layout';
+import Link from 'next/link';
+import utilStyles from '../styles/utils.module.css';
+import Icons from '../components/icons';
+import styles from '../components/layout.module.css';
+import Image from 'next/image';
+// import linkedinIcon from '../../public/images/linkedin-outline.svg';
+
+const name = 'Eric Zhan';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <Layout>
+	  <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>{siteTitle}</title>
       </Head>
+	  <div>
+      <header className={styles.header}>
+          <>
+            <Image
+              priority
+              src="/images/eric_cropped.jpg"
+              className={utilStyles.borderCircle}
+              height={168}
+              width={168}
+              alt="Hello World!"
+            />
+            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+          </>
+          <>
+          </>
+      </header>
+	  <Icons/>
+	  </div>
+      <section className={utilStyles.headingMd}>
+        <p>
+	  		Hello! I am a first-year student at MIT pursuing a degree in Electrical Engineering and 
+	  Computer Science (course 6-5). My research interests primarily lie in the intersection of machine
+	  learning and computer hardware, both in terms of providing better compute to models and optimizing hardware
+	  through deep learning. For fun, I enjoy playing the piano, singing acapella (go Next Sing!), and
+	  cracking puzzle hunts.
+	  </p>
+	  <p>
+	  		My high school background was primarily built around competition math and physics. I won
+	  USAMO Bronze (problem 4 haunts me to this day) and USAPhO Silver (removing the mechanics question
+		  was truly a travesty).
+	  More exciting was competing in Science Bowl; I lead my school's
+	  Science Bowl team to the National competition my junior and senior year. I write questions for 
+	  the annual MIT Science Bowl as well.
 
-      <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
-
-      <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family:
-            Menlo,
-            Monaco,
-            Lucida Console,
-            Liberation Mono,
-            DejaVu Sans Mono,
-            Bitstream Vera Sans Mono,
-            Courier New,
-            monospace;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family:
-            -apple-system,
-            BlinkMacSystemFont,
-            Segoe UI,
-            Roboto,
-            Oxygen,
-            Ubuntu,
-            Cantarell,
-            Fira Sans,
-            Droid Sans,
-            Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
-    </div>
+	  </p>
+	  <p>
+	  		I also enjoy teaching. During high school, I led a local volunteering group teaching various
+	  classes outside the traditional school curriculum. I also taught classes for Professor's Loh's LIVE
+	  program for two years - super fun and most likely the closest experience I'll ever have to being a livestreamer.
+	  </p>
+      </section>
+	  </div>
+    </Layout>
   );
 }
