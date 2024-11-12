@@ -27,7 +27,7 @@ export default function Home() {
 	  <h2 className={utilStyles.headingXl}>{'PRIMES-USA'}</h2>
 	  		<p>
 	  		I was a part of PRIMES 2023, a high school math research program hosted by MIT. I worked
-	  with PhD candidate Vasiliy Nekrasov and Professor Dmitry Kleinbock, both from Brandeis Univesity,
+	  with PhD candidate Vasiliy Nekrasov and Professor Dmitry Kleinbock, both from Brandeis University,
 	  on the topic of Schmidt Games. I presented my results at the annual PRIMES conference and at
 	  the Brandeis Dynamics and Number Theory Seminar. I was also named a Regeneron Scholar (top 300 nationwide)
 	  as a result of this project.

@@ -2,9 +2,11 @@
   width: calc(min(54rem, 100% - 50px));
   padding: 0 1rem;
   margin: 1.5rem auto 1rem;
-  background-color: var(--light-color);
+  border: solid;
   padding: 2rem;
-  box-shadow: 5px 5px 2px lightblue;
+  border-radius: 20px;
+  border-color: var(--border-color);
+  box-shadow: 0px 0px 4px 4px var(--light-color);
 }
 
 .header {
@@ -25,13 +27,12 @@
 	flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: var(--header-sep);
 	padding: 0.8rem 0;
 	margin: auto;
 	background-color: var(--main-color);
 	font-weight: var(--header-weight);
 	font-size: var(--header-size);
-	box-shadow: 0px 2px lightblue;
+	box-shadow: 0px 2px var(--light-color);
 }
 
 .rightheader {
@@ -45,6 +46,7 @@
 .leftheader {
 	font-weight: 600;
 	float: left;
-  margin-left: 1rem;
+  margin-left: 1.3rem;
   margin-right: 1rem;
 }
+

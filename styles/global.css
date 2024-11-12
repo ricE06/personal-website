@@ -1,10 +1,12 @@
 :root {
-	--main-color: #4998de;
-	--light-color: #dcecfa;
-	--back-color: #f2fafc;
-	--link-color: #197bd1;
+	--main-color: #87c38f;
+	--border-color: #000000;
+	--light-color: #e7dfda;
+	--back-color: #fbfefb;
+	--text-color: #252c2d;
+	--link-color: #726adc;
 	--header-weight: 600;
-	--header-sep: 1rem;
+	--header-sep: 2.5rem;
   --header-size: 1.2rem;
 }
 
@@ -26,6 +28,7 @@ body {
     sans-serif;
 	background-color: var(--back-color);
 	letter-spacing: .01rem;
+	color: var(--text-color);
 }
 
 a {
@@ -36,6 +39,7 @@ a {
 ba {
   color: var(--link-color);
   text-decoration: none;
+  font-weight: 600;
 }
 
 * {

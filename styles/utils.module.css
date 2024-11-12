@@ -29,13 +29,14 @@
 .borderCircle {
   border-radius: 9999px;
   border-style: solid;
-  border-color: var(--main-color);
+  border-color: var(--border-color);
+  box-shadow: 0 0 5px 5px var(--light-color);
 }
 
 .borderRect {
   border: 3px;
   border-style: solid;
-  border-color: var(--main-color);
+  border-color: var(--border-color);
 }
 
 .colorInherit {
