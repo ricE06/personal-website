@@ -37,9 +37,9 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <p>
 	  		Hello! I am a first-year student at MIT pursuing a degree in Electrical Engineering and 
-	  Computer Science (course 6-5). My research interests primarily lie in the intersection of machine
-	  learning and computer hardware, both in terms of providing better compute to models and optimizing hardware
-	  through deep learning. For fun, I enjoy playing the piano, singing acapella (go Next Sing!), and
+	  Computer Science (course 6-5). My research interests generally lie in machine learning and quantum computing,
+	  although I am quite open at the moment.
+	  For fun, I enjoy playing the piano, singing acapella (go Next Sing!), and
 	  cracking puzzle hunts.
 	  </p>
 	  <p>
