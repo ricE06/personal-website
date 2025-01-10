@@ -22,14 +22,20 @@ export default function Home() {
 		<div className={styles.container}>
       <section className={utilStyles.headingMd}>
 	  <h2 className={utilStyles.headingXl}>{'Coursework'}</h2>
+	  		<p>
+	  		<b> IAP 2025 </b>
+	  		<ul>
+	  			<li>6.9302: StartMIT: Workshop for Entrepreneurs and Innovators</li>
+	  		</ul>
+	  		</p>
 			<p>
 			<b> Fall 2024 </b>
 	  		<ul>
-	  			<li>6.101: Fundamentals of Programming in Python</li>
-	  			<li>6.200: Circuits and Electronics</li>
-	  			<li>18.03: Differential Equations</li>
-	  			<li>18.C20: Introduction to Computer Science and Engineering</li>
-	  			<li>21L.021: Comedy</li>
+	  			<li>6.101: Fundamentals of Programming in Python - A+</li>
+	  			<li>6.200: Circuits and Electronics - A+ </li>
+	  			<li>18.03: Differential Equations - A </li>
+	  			<li>18.C20: Introduction to Computer Science and Engineering - A</li>
+	  			<li>21L.021: Comedy - A-</li>
 		  	</ul>
 	  </p>
 	  <p>
@@ -44,6 +50,7 @@ export default function Home() {
 		  	</ul>
 			</p>
       </section>
+
 	  </div>
 		<div className={styles.container}>
       <section className={utilStyles.headingMd}>
