@@ -25,6 +25,27 @@ export default function Home() {
 	  </div>
 		<div className={styles.container}>
       <section className={utilStyles.headingMd}>
+	  <h2 className={utilStyles.headingXl}>{'Brass Rat Puzzle Hunt'}</h2>
+				<p>
+					View the site: <Link href="https://brassrathunt.org"><ba>https://brassrathunt.org</ba></Link>
+				</p>
+	  		<p>
+				A full stack website to host the 2025 Brass Rat Puzzle Hunt, a promotional event for the annual
+				class ring. I built the site from scratch without using existing puzzle hunt frameworks so it
+				would feel like an early internet style minimalist email system. It also features a progressional unlock system
+				and answer checking. The site served roughly 200 teams that participated. 
+			</p>
+	  		<p>
+				I built it with
+				React, Vite, Django, and SQLite. It's deployed on AWS with a custom nginx configuration, because
+				some middleware I used for integration made traditional deployment a bit difficult. See the 
+				source code
+	  <Link href="https://github.com/ricE06/brass-rat-site"><ba> here</ba></Link>.
+			</p>
+      </section>
+	  </div>
+		<div className={styles.container}>
+      <section className={utilStyles.headingMd}>
 	  <h2 className={utilStyles.headingXl}>{'Omegacat'}</h2>
 	  		<p>
 	  		A discord bot for the MIT Class of 2028 discord server I developed over the summer of 2024. 
@@ -62,38 +83,6 @@ export default function Home() {
 	  <Link href="https://github.com/ricE06/technologic"><ba> here</ba></Link>,
 		as well as a few tests and examples. It's currently 
 	work in progress; text file input should hopefully be coming very soon. 
-			</p>
-      </section>
-	  </div>
-		<div className={styles.container}>
-      <section className={utilStyles.headingMd}>
-	  <h2 className={utilStyles.headingXl}>{'CATSOOPER'}</h2>
-			<p>
-	  		Two of the classes I took in Fall 2024 (6.101 and 6.200) used a custom LMS known as CAT-SOOP.
-	  		Unfortunately, CAT-SOOP didn't display overall grades, and it was left up to the student to
-	  		calculate them. I decided to learn how to webscrape and create the CATSOOP gradE calculatoR to 
-	 		 do the calculations automatically
-	  		for me and any other students that wanted to use it. 
-			</p>
-			<p>
-	  		You can find the source code 
-	  <Link href="https://github.com/ricE06/catsoop-grade-calculator"><ba> here</ba></Link>,
-	as well as instructions to install and use it if you wish.
-			</p>
-      </section>
-	  </div>
-		<div className={styles.container}>
-      <section className={utilStyles.headingMd}>
-	  <h2 className={utilStyles.headingXl}>{'Collections Plus'}</h2>
-			<p>
-			A WIP Python library to implement a variety of data structures and algorithm frameworks commonly
-			found in competitive programming / leetcode problems.
-			</p>
-			<p>
-	  		You can find the source code 
-	  <Link href="https://github.com/ricE06/collections-plus"><ba> here</ba></Link>,
-	as well as instructions to install and use it if you wish.
-	as well as installation and usage instructions.
 			</p>
       </section>
 	  </div>

@@ -6,8 +6,6 @@ import Image from 'next/image';
 import utilStyles from '../styles/utils.module.css';
 import styles from '../components/layout.module.css';
 
-
-
 export default function Home() {
   return (
 	  <Layout>
@@ -16,8 +14,7 @@ export default function Home() {
             <h1 className={utilStyles.heading2Xl}>{'Research'}</h1>
        <section className={utilStyles.headingMd}>
 	  <p>
-	  This page contains information about research projects I've done throughout
-	  high school.
+	  This page contains information about the research projects I worked on.
 	  </p>
 	  </section>
 	  </header>

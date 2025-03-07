@@ -22,6 +22,16 @@ export default function Home() {
 		<div className={styles.container}>
       <section className={utilStyles.headingMd}>
 	  <h2 className={utilStyles.headingXl}>{'Coursework'}</h2>
+			<p>
+			<b> Spring 2025 </b>
+	  		<ul>
+	  			<li>6.102: Software Construction </li>
+	  			<li>6.1903: Introduction to Low-Level Programming in C and Assembly </li>
+	  			<li>6.191: Computation Structures </li>
+	  			<li>6.230: Electromagnetic Waves and Applications </li>
+	  			<li>6.390: Introduction to Machine Learning </li>
+				</ul>
+		  </p>
 	  		<p>
 	  		<b> IAP 2025 </b>
 	  		<ul>
@@ -62,8 +72,8 @@ export default function Home() {
 	  		section will be populated soon when these puzzles are published :).
 			</p>
 			<p>
-	  		I'm also a part of Next Sing acapella (tentatively leading an act next 
-				semester) and MIT Full Stack, where I'm working with my peers to develop a 
+	  		I'm also a part of Next Sing acapella (leading Until I Found You x blue)
+				and MIT Full Stack (now AppDev), where I'm working with my peers to develop a 
 				website for students to find roommates for summer housing.
 			</p>
       </section>
