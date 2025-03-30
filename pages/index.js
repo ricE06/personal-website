@@ -53,7 +53,7 @@ export default function Home() {
 	  </p>
 	  <p>
 	  		I also enjoy teaching. During high school, I led a local volunteering group teaching various
-	  classes outside the traditional school curriculum. I also taught classes for Professor's Loh's LIVE
+	  classes outside the traditional school curriculum. I also taught classes for Professor Loh's LIVE
 	  program for two years - super fun and most likely the closest experience I'll ever have to being a livestreamer.
 	  </p>
       </section>
