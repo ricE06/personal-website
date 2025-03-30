@@ -36,8 +36,8 @@ export default function Home() {
 	  </div>
       <section className={utilStyles.headingMd}>
         <p>
-	  		Hello! I am a first-year student at MIT pursuing a degree in Electrical Engineering and 
-	  Computer Science (course 6-5). My research interests generally lie in machine learning and quantum computing,
+	  		Hello! I am a first-year student at MIT majoring in Artificial Intelligence 
+	  and Decision Making (course 6-4). My research interests generally lie in machine learning and quantum computing,
 	  although I am quite open at the moment.
 	  For fun, I enjoy playing the piano, singing acapella (go Next Sing!), and
 	  cracking puzzle hunts.
