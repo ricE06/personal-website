@@ -9,7 +9,7 @@ import { Section } from '../components/section';
 export default function Home() {
   return (
     <Layout>
-      <div className='flex flex-row justify-center pb-7'>
+      <div className='flex flex-row justify-center pb-10'>
         <h1 className='text-4xl font-bold'>Coursework</h1>
       </div>
       <Section header=''>

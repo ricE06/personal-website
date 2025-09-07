@@ -10,10 +10,30 @@ import { Section } from '../components/section';
 export default function Home() {
   return (
 	  <Layout>
-      <div className='flex flex-row justify-center pb-7'>
+      <div className='flex flex-row justify-center pb-10'>
         <h1 className='text-4xl font-bold'>Research Experience</h1>
       </div>
       <div className='space-y-10'>
+        <Section header='UROP - Summer/Fall 2025'>
+          <p>
+            I'm currently working with FutureTech at MIT's Computer Science and Artificial
+            Intelligence Lab (CSAIL) with the AlgoWiki project. The project aims to  
+            benchmark the progress of theoretical algorithms of intractable problems through time.
+            I am developing an automated pipeline to parse, analyze, and validate all of the data
+            the project has collected so far (mostly asymptotic runtimes of algorithms). 
+          </p>
+        </Section>
+
+        <Section header='UROP - Spring 2025'>
+          <p>
+            I worked with the Quantum Nanostructures and Nanofabrication Laboratory (QNN)
+            at MIT's Research Lab of Electronics (RLE). My work focused on 
+            the switching currents of superconducting nanowires; I worked in a very cool lab
+            (lots of cryostats!)
+            where I set up and took measurements of various devices and analyzed the data.
+          </p>
+        </Section>
+
         <Section header='MIT PRIMES-USA'>
           <p>
             I was a part of MIT PRIMES 2023, a high school math research program hosted by MIT. I worked
