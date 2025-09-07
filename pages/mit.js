@@ -9,40 +9,40 @@ export default function Home() {
   return (
 	  <Layout>
 		<div className={styles.container}>
-      <header className={styles.header}>
-            <h1 className={utilStyles.heading2Xl}>{'MIT'}</h1>
-       <section className={utilStyles.headingMd}>
-	  <p>
-	  Turns out students here like to backronym MIT a lot, so I should keep up with tradition. Below is
-	  some information about my Mostly Ideal Time at MIT.
-	  </p>
-	  </section>
-	  </header>
-	  </div>
-		<div className={styles.container}>
       <section className={utilStyles.headingMd}>
 	  <h2 className={utilStyles.headingXl}>{'Coursework'}</h2>
 			<p>
+			<b> Fall 2025 </b>
+	  		<ul>
+	  			<li>6.1220: Design and Analysis of Algorithms</li>
+	  			<li>6.4210: Robotic Manipulation</li>
+	  			<li>6.7350: Numerical Algorithms for Computing and Machine Learning</li>
+	  			<li>6.7960: Deep Learning</li>
+	  			<li>18.600: Probability and Random Variables </li>
+	  			<li>24.900: Introduction to Linguistics</li>
+				</ul>
+		  </p>
+			<p>
 			<b> Spring 2025 </b>
 	  		<ul>
-	  			<li>6.102: Software Construction </li>
-	  			<li>6.1903: Introduction to Low-Level Programming in C and Assembly </li>
-	  			<li>6.191: Computation Structures </li>
-	  			<li>6.230: Electromagnetic Waves and Applications </li>
-	  			<li>6.390: Introduction to Machine Learning </li>
+	  			<li>6.1020: Software Construction - A+ </li>
+	  			<li>6.1903: Introduction to Low-Level Programming in C and Assembly - A </li>
+	  			<li>6.1910: Computation Structures - A </li>
+	  			<li>6.2300: Electromagnetic Waves and Applications - A+ </li>
+	  			<li>6.3900: Introduction to Machine Learning - A </li>
 				</ul>
 		  </p>
 	  		<p>
 	  		<b> IAP 2025 </b>
 	  		<ul>
-	  			<li>6.9302: StartMIT: Workshop for Entrepreneurs and Innovators</li>
+	  			<li>6.9302: StartMIT: Workshop for Entrepreneurs and Innovators - P</li>
 	  		</ul>
 	  		</p>
 			<p>
 			<b> Fall 2024 </b>
 	  		<ul>
-	  			<li>6.101: Fundamentals of Programming in Python - A+</li>
-	  			<li>6.200: Circuits and Electronics - A+ </li>
+	  			<li>6.1010: Fundamentals of Programming in Python - A+</li>
+	  			<li>6.2000: Circuits and Electronics - A+ </li>
 	  			<li>18.03: Differential Equations - A </li>
 	  			<li>18.C20: Introduction to Computer Science and Engineering - A</li>
 	  			<li>21L.021: Comedy - A-</li>
@@ -61,22 +61,6 @@ export default function Home() {
 			</p>
       </section>
 
-	  </div>
-		<div className={styles.container}>
-      <section className={utilStyles.headingMd}>
-	  <h2 className={utilStyles.headingXl}>{'Clubs'}</h2>
-			<p>
-	  		I'm currently involved in the MIT Puzzle Club, which runs the annual
-	  		MIT Mystery Hunt, among other puzzle events. I'm writing for the class of 2027
-	  		ring / brass rat hunt, as well as my own puzzles from time to time. Hopefully this 
-	  		section will be populated soon when these puzzles are published :).
-			</p>
-			<p>
-	  		I'm also a part of Next Sing acapella (leading Until I Found You x blue)
-				and MIT Full Stack (now AppDev), where I'm working with my peers to develop a 
-				website for students to find roommates for summer housing.
-			</p>
-      </section>
 	  </div>
 	  </Layout>
   );
