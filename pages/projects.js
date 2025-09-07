@@ -9,7 +9,7 @@ import { Section } from '../components/section';
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout pageName='projects'>
       <div className='flex flex-row justify-center pb-10'>
         <h1 className='text-4xl font-bold'>Projects</h1>
       </div>
@@ -20,7 +20,7 @@ export default function Home() {
             I make these in order to deepen my understanding of a topic I'm interested in, or practice
             some aspect of software engineering I've learned. If I happen to come up with ideas that
             help other people, that's a big plus as well. You can find all of my projects on my 
-            <Link href="https://github.com/ricE06"><ba> Github</ba></Link>.
+            <Link href="https://github.com/ricE06"> <ba>Github</ba></Link>.
           </p>
         </Section>
 
@@ -88,7 +88,7 @@ export default function Home() {
             React, Vite, Django, and SQLite. It's deployed on AWS with a custom nginx configuration, because
             some middleware I used for integration made traditional deployment a bit difficult. See the 
             source code
-            <Link href="https://github.com/ricE06/brass-rat-site"><ba> here</ba></Link>.
+            <Link href="https://github.com/ricE06/brass-rat-site"> <ba>here</ba></Link>.
           </p>
         </Section>
 
@@ -103,7 +103,7 @@ export default function Home() {
             <p>
               I built it with discord.py and SQLite; it is currently hosted on AWS. You can view the
               source code
-              <Link href="https://github.com/ricE06/Omegacat"><ba> here</ba></Link>.
+              <Link href="https://github.com/ricE06/Omegacat"> <ba>here</ba></Link>.
             </p>
         </Section>
 
@@ -123,7 +123,7 @@ export default function Home() {
           </p>
           <p>
             You can find the source code
-            <Link href="https://github.com/ricE06/technologic"><ba> here</ba></Link>,
+            <Link href="https://github.com/ricE06/technologic"> <ba>here</ba></Link>,
             as well as a few tests and examples. It's currently 
             work in progress; text file input should hopefully be coming very soon. 
           </p>
@@ -136,7 +136,7 @@ export default function Home() {
           </p>
           <p>
             I built it with the Next.js framework and TailwindCSS. You can find the source code 
-            <Link href="https://github.com/ricE06/personal-website"><ba> here</ba></Link>.
+            <Link href="https://github.com/ricE06/personal-website"> <ba>here</ba></Link>.
           </p>
         </Section>
       </div>

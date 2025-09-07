@@ -8,7 +8,7 @@ import { Section } from '../components/section';
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout pageName='classes'>
       <div className='flex flex-row justify-center pb-10'>
         <h1 className='text-4xl font-bold'>Coursework</h1>
       </div>
@@ -22,8 +22,8 @@ export default function Home() {
             <li> - 6.7960: Deep Learning</li>
             <li> - 18.600: Probability and Random Variables </li>
             <li> - 24.900: Introduction to Linguistics</li>
-              </ul>
-              </p>
+          </ul>
+          </p>
 
         <p>
         <b> Spring 2025 </b>

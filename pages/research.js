@@ -9,7 +9,7 @@ import { Section } from '../components/section';
 
 export default function Home() {
   return (
-	  <Layout>
+	  <Layout pageName='research'>
       <div className='flex flex-row justify-center pb-10'>
         <h1 className='text-4xl font-bold'>Research Experience</h1>
       </div>
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
           <p>
             We are in the process of publishing this work; you can read the arxiv pre-print 
-            <Link href="https://arxiv.org/abs/2401.00614"><ba> here</ba></Link>.
+            <Link href="https://arxiv.org/abs/2401.00614"> <ba>here</ba></Link>.
           </p>
         </Section>
 
@@ -68,7 +68,7 @@ export default function Home() {
           </p>
           <p>
             You can find my code, as well as my research report and slides, in my 
-            <Link href="https://codeberg.org/eric.zhan/Geometric_Optics_Corrections_Simulations"><ba> codeberg repository</ba></Link>.
+            <Link href="https://codeberg.org/eric.zhan/Geometric_Optics_Corrections_Simulations"> <ba>codeberg repository</ba></Link>.
           </p>
         </Section>
       </div>

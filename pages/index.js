@@ -12,7 +12,7 @@ const name = 'Eric Zhan';
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout pageName='home'>
 	  <div className='text-gray-900 text-lg space-y-2'>
       <Head>
         <title>{siteTitle}</title>
@@ -44,7 +44,7 @@ export default function Home() {
         </p>
         <p>
           You can 
-          <Link href='/resume.pdf'><ba> find my resume here</ba></Link>.
+          <Link href='/resume.pdf'> <ba>find my resume here</ba></Link>.
         </p>
       </Section>
 
@@ -63,7 +63,7 @@ export default function Home() {
           a program where high schoolers conduct pure math research over the course of a full year
           with a mentor; we're currently in the process of publishing that paper! 
           You can find more complete descriptions about all of my prior research experience 
-          <Link href='/research'><ba> in the 'Research' tab</ba></Link>.
+          <Link href='/research'> <ba>in the 'Research' tab</ba></Link>.
         </p>
       </Section>
 
@@ -72,7 +72,7 @@ export default function Home() {
       <p>
         I like making things! My largest and most impactful active project (to date)
         is definitely 
-        <Link href='https://mitmapit.org'><ba> MapIT</ba></Link>
+        <Link href='https://mitmapit.org'> <ba>MapIT</ba></Link>
         , a campus map containing floor plans of all 40,000
         rooms and corridors at MIT to help students find classrooms and offices.
         I worked on it with my peers in AppDev@MIT
@@ -96,7 +96,7 @@ export default function Home() {
       </div>
       <p> 
         You can find all of my past projects
-        <Link href='/projects'><ba> in the 'Projects' tab</ba></Link>.
+        <Link href='/projects'> <ba>in the 'Projects' tab</ba></Link>.
       </p>
       </Section>
 
@@ -114,18 +114,18 @@ export default function Home() {
       </ul>
       <p>
         You can see a full list of my coursework and grades 
-        <Link href='/mit'><ba> in the 'Classes' tab</ba></Link>.
+        <Link href='/mit'> <ba>in the 'Classes' tab</ba></Link>.
       </p>
       </Section>
 
       <Section header='Other Fun Things'>
 
       <p>
-      I like music and solving puzzles! I'm currently an act lead for 
-      Next Sing at MIT (an acapella group) and write arrangements.
-      I'm also an avid fan of puzzle hunts (writing puzzles for them
-      on occasion), and I serve as the 
-      webmaster for the MIT Puzzle Club.
+        I like music and solving puzzles! I'm currently an act lead for 
+        Next Sing at MIT (an acapella group) and write arrangements.
+        I'm also an avid fan of puzzle hunts (writing puzzles for them
+        on occasion), and I serve as the 
+        webmaster for the MIT Puzzle Club.
       </p>
 
       </Section>

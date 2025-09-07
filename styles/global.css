@@ -8,6 +8,7 @@
 	--back-color: #fcfcfc;
 	--text-color: #252c2d;
 	--link-color: #726adc;
+	--link-color-hover: #b7b3f2;
 	--header-weight: 600;
 	--header-sep: 2.5rem;
   --header-size: 1.2rem;
@@ -41,8 +42,12 @@ a {
 
 ba {
   color: var(--link-color);
-  text-decoration: none;
+  text-decoration-line: underline;
   font-weight: 600;
+}
+
+ba:hover {
+  color: var(--link-color-hover);
 }
 
 * {
@@ -66,4 +71,5 @@ p {
 
 @theme {
     --font-custom-mono: "Reddit Mono", monospace;
+    --color-link: #726adc;
 }
