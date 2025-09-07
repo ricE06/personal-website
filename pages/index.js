@@ -3,6 +3,7 @@ import Layout, { siteTitle } from '../components/layout';
 import Link from 'next/link';
 import utilStyles from '../styles/utils.module.css';
 import Icons from '../components/icons';
+import { Section } from '../components/section';
 import styles from '../components/layout.module.css';
 import Image from 'next/image';
 // import linkedinIcon from '../../public/images/linkedin-outline.svg';
@@ -12,7 +13,7 @@ const name = 'Eric Zhan';
 export default function Home() {
   return (
     <Layout>
-	  <div className={styles.container}>
+	  <div className='text-gray-900 text-lg space-y-2'>
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -29,42 +30,46 @@ export default function Home() {
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
-          <>
-          </>
       </header>
 	  <Icons/>
 	  </div>
-      <section className={utilStyles.headingMd}>
-        <h1>About Me</h1>
-      Hello! I'm Eric, a sophomore at MIT studying 
-    6-4 (Artificial Intelligence and Decision Making).
-    I'm currently interested in 
-    studying machine learning and software design. 
-    For fun, I like singing, playing piano, and solving puzzles.
-
-        <h1>Research + UROP</h1>
-
+    <div className='space-y-10 pt-6'>
+      <Section header=''>
         <p>
-        I'm currently working with FutureTech at MIT's Computer Science and Artificial
-    Intelligence Lab (CSAIL) with the AlgoWiki project. The project aims to  
-    benchmark the progress of theoretical algorithms of intractable problems through time;
-    I am developing an automated pipeline to parse, analyze, and validate all of the data
-    the project has collected so far (mostly asymptotic runtimes of algorithms). 
-      </p>
+          Hello! I'm Eric, a sophomore at MIT studying 
+          6-4 (Artificial Intelligence and Decision Making).
+          I'm currently interested in 
+          studying machine learning and software design. 
+          For fun, I like singing, playing piano, and solving puzzles.
+        </p>
+        <p>
+          You can 
+          <Link href='/resume.pdf'><ba> find my resume here</ba></Link>.
+        </p>
+      </Section>
 
-      <p>
-    In spring semester, I worked with the Quantum Nanostructures and Nanofabrication
-    (QNN) lab on superconducting devices before I pivoted more toward theoretical 
-    computer science. Before that, I participated in MIT PRIMES in high school,
-    a program where high schoolers conduct pure math research over the course of a full year
-    with a mentor; we're currently in the process of publishing that paper! 
-    You can find more complete descriptions about all of my prior research experience 
+      <Section header='Research + UROP'>
+        <p>
+          I'm currently working with FutureTech at MIT's Computer Science and Artificial
+          Intelligence Lab (CSAIL) with the AlgoWiki project. The project aims to  
+          benchmark the progress of theoretical algorithms of intractable problems through time.
+          I am developing an automated pipeline to parse, analyze, and validate all of the data
+          the project has collected so far (mostly asymptotic runtimes of algorithms). 
+        </p>
+        <p>
+          In spring semester, I worked with the Quantum Nanostructures and Nanofabrication
+          (QNN) lab on superconducting devices before I pivoted more toward theoretical 
+          computer science. Before that, I participated in MIT PRIMES in high school,
+          a program where high schoolers conduct pure math research over the course of a full year
+          with a mentor; we're currently in the process of publishing that paper! 
+          You can find more complete descriptions about all of my prior research experience 
           <Link href='/research'><ba> in the 'Research' tab</ba></Link>.
-      </p>
+        </p>
+      </Section>
 
-        <h1>Project Highlight</h1>
-      
-        <p>
+      <Section header='Project Highlight'>
+    
+      <p>
         I like making things! My largest and most impactful active project (to date)
         is definitely 
         <Link href='https://mitmapit.org'><ba> MapIT</ba></Link>
@@ -77,47 +82,56 @@ export default function Home() {
         with design patterns,
         and an exercise in handling huge amounts of data. I also managed 
         the full deployment process and learned a lot setting up our CI/CD pipeline.
-        It currently has over 500 active users (all MIT students).
-        </p>
-
-	  		<div className={utilStyles.center}>
-	  		<Image
-              priority
-              src="/images/mapit.png"
-	  			className={utilStyles.borderRect}
-	  			width={400}
-	  			height={300}
-              alt="A screenshot of MapIT"
-	  />
-        </div>
-        <p> 
+        It currently has several hundred active users (all MIT students).
+      </p>
+      <div className='flex flex-row justify-center'>
+        <Image
+          priority
+          src="/images/mapit.png"
+          className='border border-1 border-gray-400'
+          width={400}
+          height={300}
+          alt="A screenshot of MapIT"
+        />
+      </div>
+      <p> 
         You can find all of my past projects
-          <Link href='/projects'><ba> in the 'Projects' tab</ba></Link>.
-        </p>
+        <Link href='/projects'><ba> in the 'Projects' tab</ba></Link>.
+      </p>
+      </Section>
 
-        <h1>Coursework</h1>
+      <Section header='Coursework'>
+      <p>
         This fall, I'm studying
-	  		<ul>
-	  			<li>6.1220: Design and Analysis of Algorithms</li>
-	  			<li>6.4210: Robotic Manipulation</li>
-	  			<li>6.7350: Numerical Algorithms for Computing and Machine Learning</li>
-	  			<li>6.7960: Deep Learning</li>
-	  			<li>18.600: Probability and Random Variables </li>
-	  			<li>24.900: Introduction to Linguistics</li>
-				</ul>
+      </p>
+      <ul className='list-none'>
+        <li>  - 6.1220: Design and Analysis of Algorithms</li>
+        <li>  - 6.4210: Robotic Manipulation</li>
+        <li>  - 6.7350: Numerical Algorithms for Computing and Machine Learning</li>
+        <li>  - 6.7960: Deep Learning</li>
+        <li>  - 18.600: Probability and Random Variables </li>
+        <li>  - 24.900: Introduction to Linguistics</li>
+      </ul>
+      <p>
         You can see a full list of my coursework and grades 
-          <Link href='/mit'><ba> in the 'Classes' tab</ba></Link>.
+        <Link href='/mit'><ba> in the 'Classes' tab</ba></Link>.
+      </p>
+      </Section>
 
-        <h1>Other Fun Things</h1>
+      <Section header='Other Fun Things'>
 
-        I like music and solving puzzles! I'm currently an act lead for 
-        Next Sing at MIT (an acapella group) and write arrangements.
-        I'm also an avid fan of puzzle hunts (and write puzzles for them
-        on occasion), as well as being the
-        webmaster for the MIT Puzzle Club.
+      <p>
+      I like music and solving puzzles! I'm currently an act lead for 
+      Next Sing at MIT (an acapella group) and write arrangements.
+      I'm also an avid fan of puzzle hunts (writing puzzles for them
+      on occasion), and I serve as the 
+      webmaster for the MIT Puzzle Club.
+      </p>
+
+      </Section>
         
-      </section>
 	  </div>
+    </div>
     </Layout>
   );
 }

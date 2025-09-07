@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Reddit+Mono:wght@200..900&display=swap');
+@import 'tailwindcss';
+
 :root {
 	--main-color: #87c38f;
 	--border-color: #000000;
 	--light-color: #e7dfda;
-	--back-color: #fbfefb;
+	--back-color: #fcfcfc;
 	--text-color: #252c2d;
 	--link-color: #726adc;
 	--header-weight: 600;
@@ -59,4 +62,8 @@ p {
   :root {
     --header-size: 16px;
   }
+}
+
+@theme {
+    --font-custom-mono: "Reddit Mono", monospace;
 }
