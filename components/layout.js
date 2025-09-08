@@ -25,7 +25,6 @@ export default function Layout({ children, pageName }) {
                 <div className='pt-5'>
                     <div className='flex flex-row justify-center font-custom-mono pb-3'>
                         <p className='text-gray-400 text-xs text-center sm:text-base'>
-                            goto:
                             <Link href='/'> <span className={linkStyles.home}>home</span> </Link>
                             |
                             <Link href='/research'> <span className={linkStyles.research}>research</span> </Link>
