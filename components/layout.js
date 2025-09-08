@@ -19,6 +19,9 @@ export default function Layout({ children, pageName }) {
     }
     return (
 	  <div className='flex flex-row justify-center max-w-screen'>
+          <Head>
+            <title>{siteTitle}</title>
+          </Head>
           <div className='pl-4 pr-6 sm:px-20 py-4 space-y-3 pt-10 max-w-250'>
             <main>
                 {children}

@@ -14,9 +14,6 @@ export default function Home() {
   return (
     <Layout pageName='home'>
 	  <div className='text-gray-900 text-lg space-y-2'>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
 	  <div>
       <header className={styles.header}>
           <>
@@ -122,7 +119,8 @@ export default function Home() {
 
       <p>
         I like music and solving puzzles! I'm currently an act lead for 
-        Next Sing at MIT (an acapella group) and write arrangements.
+        Next Sing at MIT (an acapella group) <span>and </span> 
+        <Link href='/acapella'><ba>write arrangements</ba></Link>.
         I'm also an avid fan of puzzle hunts (writing puzzles for them
         on occasion), and I serve as the 
         webmaster for the MIT Puzzle Club.
