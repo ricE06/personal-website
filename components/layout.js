@@ -8,7 +8,8 @@ const name = 'Eric Zhan';
 export const siteTitle = 'Eric Zhan\'s Personal Website';
 
 export default function Layout({ children, pageName }) {
-    const makeStyle = (page) => `decoration-gray-300 underline ${page === pageName ? 'font-bold' : ''} hover:text-link hover:font-bold hover:decoration-link`;
+    const makeStyle = (page) => `decoration-gray-300 underline 
+    ${page === pageName ? 'font-bold' : ''} hover:text-link hover:font-bold hover:decoration-link`;
     const linkStyles = {
         home: makeStyle('home'),
         research: makeStyle('research'),
@@ -23,7 +24,7 @@ export default function Layout({ children, pageName }) {
                 {children}
                 <div className='pt-5'>
                     <div className='flex flex-row justify-center font-custom-mono pb-3'>
-                        <p className='text-gray-400 text-base'>
+                        <p className='text-gray-400 text-xs text-center sm:text-base'>
                             goto:
                             <Link href='/'> <span className={linkStyles.home}>home</span> </Link>
                             |
@@ -37,7 +38,7 @@ export default function Layout({ children, pageName }) {
                         </p>
                     </div>
                     <div className='flex flex-row justify-center font-custom-mono'>
-                        <p className='text-gray-400 text-base'>
+                        <p className='text-gray-400 text-xs sm:text-base'>
                             © Eric Zhan 2024-2025
                         </p>
                     </div>
