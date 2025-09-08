@@ -9,7 +9,7 @@ export const siteTitle = 'Eric Zhan\'s Personal Website';
 
 export default function Layout({ children, pageName }) {
     const makeStyle = (page) => `decoration-gray-300 underline 
-    ${page === pageName ? ' font-bold' : ''} text-gray-400 hover:text-blue-400 hover:font-bold hover:decoration-link`;
+    ${page === pageName ? ' font-bold' : ''} text-gray-400 hover:text-link hover:font-bold hover:decoration-link`;
     const linkStyles = {
         home: makeStyle('home'),
         research: makeStyle('research'),
@@ -24,7 +24,7 @@ export default function Layout({ children, pageName }) {
                 {children}
                 <div className='pt-5'>
                     <div className='flex flex-row justify-center font-custom-mono pb-3'>
-                        <p className='text-gray-400 text-center text-xs sm:text-base hover:text-link'>
+                        <p className='text-gray-400 text-center text-xs sm:text-base'>
                             <Link href='/'> <span className={linkStyles.home}>home</span> </Link>
                             |
                             <Link href='/research'> <span className={linkStyles.research}>research</span> </Link>
