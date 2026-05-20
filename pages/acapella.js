@@ -75,7 +75,7 @@ const arrangements = [
     lastUpdated: "02/28/26",
     links: [
       { label: "View the arrangement", href: "/acapella/someone-you-loved.pdf" },
-      { label: "download the Musescore", href: "/acapella/someone-you-loved.mcsz" },
+      { label: "download the Musescore", href: "/acapella/someone-you-loved.mscz" },
     ],
   },
   {
@@ -90,8 +90,8 @@ const arrangements = [
     semesterOrder: 3,
     lastUpdated: "02/28/26",
     links: [
-      { label: "View the arrangement", href: "/acapella/someone-you-loved.pdf" },
-      { label: "download the Musescore", href: "/acapella/someone-you-loved.mcsz" },
+      { label: "View the arrangement", href: "/acapella/lemon-tree.pdf" },
+      { label: "download the Musescore", href: "/acapella/lemon-tree.mscz" },
     ],
   },
 ];
