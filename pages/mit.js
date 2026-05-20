@@ -14,16 +14,25 @@ export default function Home() {
       </div>
       <Section header=''>
         <p>
-        <b> Fall 2025 (in progress) </b>
+        <b> Spring 2026 </b>
           <ul>
-            <li> - 6.1220: Design and Analysis of Algorithms</li>
-            <li> - 6.4210: Robotic Manipulation</li>
-            <li> - 6.7350: Numerical Algorithms for Computing and Machine Learning</li>
-            <li> - 6.7960: Deep Learning</li>
-            <li> - 18.600: Probability and Random Variables </li>
-            <li> - 24.900: Introduction to Linguistics</li>
+            <li> - 6.1060: Software Performance Engineering - A</li>
+            <li> - 6.5420: Randomness and Computation - A+</li>
+            <li> - 6.5840: Distributed Systems - A</li>
+            <li> - 21M.302: Harmony and Counterpoint II - A</li>
           </ul>
-          </p>
+        </p>
+
+        <p>
+        <b> Fall 2025 </b>
+          <ul>
+            <li> - 6.1220: Design and Analysis of Algorithms - A</li>
+            <li> - 6.4210: Robotic Manipulation - A</li>
+            <li> - 6.7350: Numerical Algorithms for Computing and Machine Learning - A</li>
+            <li> - 18.600: Probability and Random Variables - A+</li>
+            <li> - 24.900: Introduction to Linguistics - A+</li>
+          </ul>
+        </p>
 
         <p>
         <b> Spring 2025 </b>

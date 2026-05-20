@@ -41,7 +41,7 @@ export default function Layout({ children, pageName }) {
                     </div>
                     <div className='flex flex-row justify-center font-custom-mono'>
                         <p className='text-gray-400 text-xs sm:text-base'>
-                            © Eric Zhan 2024-2025
+                            © Eric Zhan 2024-2026
                         </p>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Reddit+Mono:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
 @import 'tailwindcss';
 
 @custom-variant hover (&:hover);
@@ -20,18 +20,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    Segoe UI,
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    Fira Sans,
-    Droid Sans,
-    Helvetica Neue,
-    sans-serif;
+  font-family: "Noto Sans Mono", monospace;
 	background-color: var(--back-color);
 	letter-spacing: .01rem;
 	color: var(--text-color);
@@ -72,6 +61,6 @@ p {
 }
 
 @theme {
-    --font-custom-mono: "Reddit Mono", monospace;
+    --font-custom-mono: "Noto Sans Mono", monospace;
     --color-link: #726adc;
 }

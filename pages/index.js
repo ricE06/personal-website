@@ -34,7 +34,7 @@ export default function Home() {
       <Section header=''>
         <p>
           Hello! I'm Eric, a sophomore at MIT studying 
-          6-4 (Artificial Intelligence and Decision Making).
+          6-3 (Computer Science and Engineering).
           I'm currently interested in 
           studying machine learning and software design. 
           For fun, I like singing, playing piano, and solving puzzles.
@@ -94,24 +94,6 @@ export default function Home() {
       <p> 
         You can find all of my past projects
         <Link href='/projects'> <ba>in the 'Projects' tab</ba></Link>.
-      </p>
-      </Section>
-
-      <Section header='Coursework'>
-      <p>
-        This fall, I'm studying
-      </p>
-      <ul className='list-none'>
-        <li>  - 6.1220: Design and Analysis of Algorithms</li>
-        <li>  - 6.4210: Robotic Manipulation</li>
-        <li>  - 6.7350: Numerical Algorithms for Computing and Machine Learning</li>
-        <li>  - 6.7960: Deep Learning</li>
-        <li>  - 18.600: Probability and Random Variables </li>
-        <li>  - 24.900: Introduction to Linguistics</li>
-      </ul>
-      <p>
-        You can see a full list of my coursework and grades 
-        <Link href='/mit'> <ba>in the 'Classes' tab</ba></Link>.
       </p>
       </Section>
 
