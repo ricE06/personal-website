@@ -33,10 +33,10 @@ export default function Home() {
     <div className='space-y-10 pt-6'>
       <Section header=''>
         <p>
-          Hello! I'm Eric, a sophomore at MIT studying 
+          Hello! I'm Eric, a junior at MIT studying 
           6-3 (Computer Science and Engineering).
           I'm currently interested in 
-          studying machine learning and software design. 
+          studying learning algorithms and building fast robotics software.
           For fun, I like singing, playing piano, and solving puzzles.
         </p>
         <p>
