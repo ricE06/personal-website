@@ -94,6 +94,22 @@ const arrangements = [
       { label: "download the Musescore", href: "/acapella/lemon-tree.mscz" },
     ],
   },
+  {
+    title: "The Music of the Night",
+    artist: "Andrew Lloyd Webber",
+    arranger: "Eric Zhan",
+    difficulty: "adv",
+    parts: "SATB",
+    length: "4m55s",
+    quote: "Let your mind start a journey through a strange new world...",
+    semester: "F26",
+    semesterOrder: 4,
+    lastUpdated: "09/20/26",
+    links: [
+      { label: "View the arrangement", href: "/acapella/the-music-of-the-night.pdf" },
+      { label: "download the Musescore", href: "/acapella/the-music-of-the-night.mscz" },
+    ],
+  },
 ];
 
 function compareBy(col, dir, a, b) {
