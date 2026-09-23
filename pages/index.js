@@ -14,7 +14,7 @@ export default function Home() {
     <Layout pageName='home'>
       <Section header='Eric Zhan Labs'>
         <p className='text`-center'>
-        coming soon
+                    coming soon, eventually this subdomain will get moved to main
         </p>
     </Section>
     </Layout>
