@@ -5,17 +5,13 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Eric Zhan';
-export const siteTitle = 'Eric Zhan\'s Personal Website';
+export const siteTitle = 'usaco resources';
 
 export default function Layout({ children, pageName }) {
     const makeStyle = (page) => `decoration-gray-300 underline 
     ${page === pageName ? ' font-bold' : ''} text-gray-400 hover:text-link hover:font-bold hover:decoration-link`;
     const linkStyles = {
         home: makeStyle('home'),
-        research: makeStyle('research'),
-        projects: makeStyle('projects'),
-        classes: makeStyle('classes'),
-        resume: makeStyle('resume'),
     }
     return (
 	  <div className='flex flex-row justify-center max-w-screen'>
@@ -29,14 +25,6 @@ export default function Layout({ children, pageName }) {
                     <div className='flex flex-row justify-center font-custom-mono pb-3'>
                         <p className='text-gray-400 text-center text-xs sm:text-base'>
                             <Link href='/'> <span className={linkStyles.home}>home</span> </Link>
-                            |
-                            <Link href='/research'> <span className={linkStyles.research}>research</span> </Link>
-                            |
-                            <Link href='/projects'> <span className={linkStyles.projects}>projects</span> </Link>
-                            |
-                            <Link href='/mit'> <span className={linkStyles.classes}>classes</span> </Link>
-                            |
-                            <Link href='/resume.pdf'> <span className={linkStyles.resume}>resume</span></Link>
                         </p>
                     </div>
                     <div className='flex flex-row justify-center font-custom-mono'>
