@@ -8,110 +8,15 @@ import styles from '../components/layout.module.css';
 import Image from 'next/image';
 // import linkedinIcon from '../../public/images/linkedin-outline.svg';
 
-const name = 'Eric Zhan';
 
 export default function Home() {
   return (
     <Layout pageName='home'>
-	  <div className='text-gray-900 text-lg space-y-2'>
-	  <div>
-      <header className={styles.header}>
-          <>
-            <Image
-              priority
-              src="/images/eric_cropped.jpg"
-              className={utilStyles.borderCircle}
-              height={168}
-              width={168}
-              alt="Hello World!"
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-      </header>
-	  <Icons/>
-	  </div>
-    <div className='space-y-10 pt-6'>
-      <Section header=''>
-        <p>
-          Hello! I'm Eric, a junior at MIT studying 
-          6-3 (Computer Science and Engineering).
-          I'm currently interested in 
-          studying learning algorithms and building fast robotics software.
-          For fun, I like singing, playing piano, and solving puzzles.
+      <Section header='Eric Zhan Labs'>
+        <p className='text`-center'>
+        coming soon
         </p>
-        <p>
-          You can 
-          <Link href='/resume.pdf'> <ba>find my resume here</ba></Link>.
-        </p>
-      </Section>
-
-      <Section header='Research + UROP'>
-        <p>
-          I'm currently working with FutureTech at MIT's Computer Science and Artificial
-          Intelligence Lab (CSAIL) with the AlgoWiki project. The project aims to  
-          benchmark the progress of theoretical algorithms of intractable problems through time.
-          I am developing an automated pipeline to parse, analyze, and validate all of the data
-          the project has collected so far (mostly asymptotic runtimes of algorithms). 
-        </p>
-        <p>
-          In spring semester, I worked with the Quantum Nanostructures and Nanofabrication
-          (QNN) lab on superconducting devices before I pivoted more toward theoretical 
-          computer science. Before that, I participated in MIT PRIMES in high school,
-          a program where high schoolers conduct pure math research over the course of a full year
-          with a mentor; we're currently in the process of publishing that paper! 
-          You can find more complete descriptions about all of my prior research experience 
-          <Link href='/research'> <ba>in the 'Research' tab</ba></Link>.
-        </p>
-      </Section>
-
-      <Section header='Project Highlight'>
-    
-      <p>
-        I like making things! My largest and most impactful active project (to date)
-        is definitely 
-        <Link href='https://mitmapit.org'> <ba>MapIT</ba></Link>
-        , a campus map containing floor plans of all 40,000
-        rooms and corridors at MIT to help students find classrooms and offices.
-        I worked on it with my peers in AppDev@MIT
-        (where I am currently co-president); development begun one year ago
-        but mostly picked up over summer. It was my first
-        introduction to using computer vision, a challenge in managing a larger codebase
-        with design patterns,
-        and an exercise in handling huge amounts of data. I also managed 
-        the full deployment process and learned a lot setting up our CI/CD pipeline.
-        It currently has several hundred active users (all MIT students).
-      </p>
-      <div className='flex flex-row justify-center'>
-        <Image
-          priority
-          src="/images/mapit.png"
-          className='border border-1 border-gray-400'
-          width={400}
-          height={300}
-          alt="A screenshot of MapIT"
-        />
-      </div>
-      <p> 
-        You can find all of my past projects
-        <Link href='/projects'> <ba>in the 'Projects' tab</ba></Link>.
-      </p>
-      </Section>
-
-      <Section header='Other Fun Things'>
-
-      <p>
-        I like music and solving puzzles! I'm currently an act lead for 
-        Next Sing at MIT (an acapella group) <span>and </span> 
-        <Link href='/acapella'><ba>write arrangements</ba></Link>.
-        I'm also an avid fan of puzzle hunts (writing puzzles for them
-        on occasion), and I serve as the 
-        webmaster for the MIT Puzzle Club.
-      </p>
-
-      </Section>
-        
-	  </div>
-    </div>
+    </Section>
     </Layout>
   );
 }
