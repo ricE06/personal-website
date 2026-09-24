@@ -109,7 +109,6 @@ export default function Home() {
       </p>
 
       </Section>
-        
 	  </div>
     </div>
     </Layout>
