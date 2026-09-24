@@ -18,9 +18,11 @@ export default function Home() {
       </div>
 	  <div className='text-gray-900 text-lg space-y-2'>
     <div className='space-y-10 pt-6'>
-      <p>
-        more content coming soon
-      </p>
+      <Section header="Uploaded Solutions">
+        <Link href='/sol/u-2017jan-b1'><ba>
+          [9/23] 2017 January Bronze P1 - Don't Be Last!
+        </ba></Link>
+      </Section>
 	  </div>
     </div>
     </Layout>
